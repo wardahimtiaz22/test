@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 90vh;
+    background-color: #f7efef;
+    padding: 0 20px;
+    }
+    nav{
+        z-index: 100;
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 20px;
+        padding: 20px 0;
+    }
+    nav ul li{
+        display: inline-block;
+        /*color: blue;*/ 
+        list-style: none;
+        margin: 10px 30px;
+
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: blue;
+    }
+    .text-box{
+        margin-top: 130px;
+        /*margin left: 20px*/
+        /*padding: 2%;*/
+        max-width: 600px;
+}
+.text-box h1{
+    color: rgb(45, 45, 209);
+    /*font-weight: bold;*/
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+/*.text-box p{
+    margin-top: 20px;
+    color: black;
+}*/
+.text-box a{
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 18px;
+    background-color: rgb(23, 23, 131);
+    margin-top: 50px;
+    display: inline-block;
+    color: white;
+    border-radius: 6px;
+    transition: .5s;
+}
+.text-box a:hover{
+    transform: scale(1.1);
+    transform: rotate(4deg);
+}
+
+.user-box{
+    position: absolute;
+    background-color:#d9e0ff ;
+   /* top: -30%;*/
+    /*left: 60%;*/
+    top: 0;
+    right: 12%;
+}
+.user-box img{
+    display: block;
+    z-index: 1;
+    padding-top: 100px;
+    width:  410px;
+    margin-bottom: -205px;
+}
+.featured h1{
+    text-align: center;
+    margin-top: 1%;
+}
+.featured .para{
+text-align: center;
+display: block;
+width: 50vw;
+margin: 2% auto;
+}
+.featured .card{
+    border: 2px solid black;
+     
+    border-radius: 6px;
+    display: inline-block;
+
+}
+.featured .card:hover{
+    transform: scale(1.1);
+}
+.featured img{
+    width: 200px;
+}
+.featured .card a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+     margin-left: 50%;
+    }
+    .content{
+
+    }
